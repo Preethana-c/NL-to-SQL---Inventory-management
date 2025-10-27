@@ -1,0 +1,25 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore temporary and system files
+*.DS_Store
+Thumbs.db
+temp/
+tmp/
+
+# Ignore Streamlit local cache
+.streamlit/
+
+# Ignore audio/temp files created by Whisper
+*.wav
+*.mp3
+*.m4a
+*.opus
+*.log
